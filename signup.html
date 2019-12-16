@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The finest chocolates in the world - available for you to buy over the web.">
+  <meta name="keywords" content="Chocolate,Sweets,Snacks,Dessert">
+  <meta name="author" content="Robert Tang Wu">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--
+  This code is for the title
+  -->
+  <title>Choc 'O' Lat - Home</title>
+  <!--
+  This code is use to link the css sheet
+-->
+      <link rel="stylesheet" type="text/css" href="css/menu.css">
+      <link rel="stylesheet" type="text/css" href="css/layout.css">
+      <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<nav>
+  <!--
+  This code is for the navigation
+-->
+<div id="logo"><a class="hotSpot" href="index.html"><img src="assets/logo.png" alt="logo"></a></div>
+
+<label for="drop" class="toggle"><img src="assets/icon.png" alt="icon"></label>
+<input type="checkbox" id="drop" />
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seasonal.html">Seasonal</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+<div class = "SignUpform">
+  <!--
+  This code is for the sign Up form 
+-->
+  <h5> Sign Up</h5>
+  <form action = "login.html" name = "myForm" onsubmit = "return(validate());">
+    <label for = "EMail"> Email: </label>
+    <input type = "text" name = "EMail" placeholder="Enter Email">
+    <br><br>
+    <label for = "password"> Password: </label>
+    <input type = "password" name = "password" placeholder="Enter Password">
+    <br><br>
+    <label for = "confirmpassword">Conifrm Password: </label>
+    <input type = "password" name = "confirmpassword" placeholder="Enter Password">
+    <br><br>
+    <a class ="forgotPassword" href="login.html">Login</a>
+    <h1 class="submitButton"><input type = "submit" value = "Create My Account" /></h1>
+   </form>
+  </div>
+
+  <script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>

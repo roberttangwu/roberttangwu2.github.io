@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The finest chocolates in the world - available for you to buy over the web.">
+  <meta name="keywords" content="Chocolate,Sweets,Snacks,Dessert">
+  <meta name="author" content="Robert Tang Wu">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--
+  This code is for the title
+  -->
+  <title>Choc 'O' Lat - Home</title>
+  <!--
+  This code is use to link the css sheet
+-->
+      <link rel="stylesheet" type="text/css" href="css/menu.css">
+      <link rel="stylesheet" type="text/css" href="css/layout.css">
+      <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<nav>
+  <!--
+  This code is for the navigation
+-->
+<div id="logo"><a class="hotSpot" href="index.html"><img src="assets/logo.png" alt="logo"></a></div>
+
+<label for="drop" class="toggle"><img src="assets/icon.png" alt="icon"></label>
+<input type="checkbox" id="drop" />
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seasonal.html">Seasonal</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+
+<div class="slideshow-container">
+  <!--
+  This code is for the slide show
+  -->
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="assets/choc1.jpg" style="width:100%">
+  <div class="text">Finest</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="assets/choc2.jpg" style="width:100%">
+  <div class="text">Chocolates</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="assets/choc3.jpg" style="width:100%">
+  <div class="text">from Belgium</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="assets/choc4.jpg" style="width:100%">
+  <div class="text">to you.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="assets/choc5.jpg" style="width:100%">
+  <div class="text">Enjoy</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="assets/choc6.jpg" style="width:100%">
+  <div class="text">yourself.</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+  <h3 class="sectionHead">Contact Us</h3>
+  <!--
+  This code is for the heading
+-->
+  <div class = "feedbackform">
+    <!--
+    This code is for the feedback form
+  -->
+    <h5> Feedback</h5>
+    <form action = "index.html" name = "myForm" onsubmit = "return(validate1());">
+      <label for = "EMail"> Email: </label>
+      <input type = "text" name = "EMail" placeholder="Enter Email">
+      <br><br>
+      <label for = "Telephone"> Telephone: </label>
+      <input type = "number"name = "telephone" placeholder="Enter telephone(optional)">
+      <br><br>
+      <div class="feedback">
+      <label for = "feedback"> Feedback: </label>
+      <textarea type = "text"name = "feedback" placeholder="Enter your Feedback"></textarea>
+    </div>
+
+      <h1 class="submitButton"><input type = "submit" value = "Send" /></h1>
+     </form>
+    </div>
+
+    <div class="icon-bar">
+      <!--
+      This code is for the social media bar
+    -->
+      <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/?lang=en-gb" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="google"><i class="fa fa-google"></i></a>
+      <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+<!--Javascript links at bottom of page-->
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/contactus.js"></script>
+</body>
+</html>
